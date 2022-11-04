@@ -1,4 +1,5 @@
 ﻿using System;
+using Ghbvft6.GithubNugetLib;
 
 namespace Ghbvft6.GithubNugetApp
 {
@@ -7,6 +8,7 @@ namespace Ghbvft6.GithubNugetApp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine(new Class1().foo());
         }
     }
 }
