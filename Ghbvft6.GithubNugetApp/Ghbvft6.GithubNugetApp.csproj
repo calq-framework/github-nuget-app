@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Ghbvft6.GithubNugetLib" Version="0.0.1" />
+    <PackageReference Include="Ghbvft6.GithubNugetLib" Version="0.0.2" />
   </ItemGroup>
 
 </Project>
