@@ -15,6 +15,8 @@ jobs:
   seqflow-merge:
     runs-on: ubuntu-latest
     steps:
+    - name: setup nuget
+      run: dotnet nuget add source --username ${{github.triggering_actor}} --password ${{secrets.GITHUB_TOKEN}} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/${{github.repository_owner}}/index.json"
     - uses: actions/checkout@v3
       with:
         fetch-depth: 2
