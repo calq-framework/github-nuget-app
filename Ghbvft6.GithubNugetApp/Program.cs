@@ -11,6 +11,7 @@ namespace Ghbvft6.GithubNugetApp
             Console.WriteLine(new Class1().foo());
             Console.WriteLine(new Class1().foo2());
             Console.WriteLine(new Class1().foo3());
+            Console.WriteLine(new Class1().foo3());
         }
     }
 }
