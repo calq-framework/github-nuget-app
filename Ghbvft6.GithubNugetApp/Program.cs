@@ -9,6 +9,7 @@ namespace Ghbvft6.GithubNugetApp
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine(new Class1().foo());
+            Console.WriteLine(new Class1().foo2());
         }
     }
 }
